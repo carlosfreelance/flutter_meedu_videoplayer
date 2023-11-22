@@ -330,7 +330,7 @@ class MeeduPlayerController {
     this.enabledOverlays = const EnabledOverlays(),
     this.customCallbacks = const CustomCallbacks(),
     Responsive? responsive,
-    this.durations = const Durations(),
+    this.durations = const Duration(),
     this.onVideoPlayerClosed,
     BoxFit? initialFit,
   }) : _videoFit = Rx(initialFit ?? BoxFit.fill) {
