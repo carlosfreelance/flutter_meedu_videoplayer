@@ -281,7 +281,7 @@ class MeeduPlayerController {
   /// such as fade-in and fade-out durations, overlay show/hide animations, and more.
   /// By modifying these durations, you can adjust the visual appearance and behavior
   /// of the video player's animations according to your preferences.
-  final Durations durations;
+  final Duration durations;
 
   /// Controls the visibility of player overlays.
   ///
